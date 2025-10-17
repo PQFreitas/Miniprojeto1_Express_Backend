@@ -1,5 +1,5 @@
 #Node
 /node_modules
 
-#dotenv
+#dotenv - Variáveis de ambiente
 .env
