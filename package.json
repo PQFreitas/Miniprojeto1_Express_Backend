@@ -12,9 +12,9 @@
   },
   "author": "",
   "type": "module",
-  "main": "src/index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start:app": "node src/index.js"
+    "start:app": "node api/index.js"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
