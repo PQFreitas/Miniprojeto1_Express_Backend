@@ -1,6 +1,6 @@
 {
   "name": "miniprojeto1_express_backend",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "homepage": "https://github.com/PQFreitas/Miniprojeto1_Express_Backend#readme",
   "bugs": {
@@ -14,11 +14,13 @@
   "type": "module",
   "main": "api/index.js",
   "scripts": {
-    "start:app": "node api/index.js"
+    "start:app": "node api/index.js",
+    "start:database": "docker compose up -d"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
