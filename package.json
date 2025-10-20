@@ -15,7 +15,8 @@
   "main": "api/index.js",
   "scripts": {
     "start:app": "node api/index.js",
-    "start:database": "docker compose up -d"
+    "start:database": "docker compose up -d",
+    "stop:database": "docker compose down"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
