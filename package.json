@@ -1,6 +1,6 @@
 {
   "name": "miniprojeto1_express_backend",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "",
   "homepage": "https://github.com/PQFreitas/Miniprojeto1_Express_Backend#readme",
   "bugs": {
@@ -19,6 +19,7 @@
     "stop:database": "docker compose down"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongoose": "^8.19.1"
